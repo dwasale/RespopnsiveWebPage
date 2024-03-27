@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Unit Example</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            text-align: center;
+            margin: 0;
+            background-color: gray;
+        }
+        h2 {
+            font-size: 5vw;
+            color: white;
+            padding-top: 25vh;
+        }
+        .centered {
+            width: 80vw;
+            height: 70vh;
+            margin: 15vh auto;
+            background: #123524;
+        }
+        @media screen and (max-width: 700px) {
+            .centered {
+                width: 80vw;
+                height: 70vh;
+                margin: 15vh auto;
+                background: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="centered">
+        <h2>Responsive Units</h2>
+
+    </div>
+</body>
+</html>
